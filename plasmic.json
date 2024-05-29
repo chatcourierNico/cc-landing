@@ -172,6 +172,20 @@
           "cssFilePath": "plasmic/dark_saa_s_landing_page/PlasmicPriceSection.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "tgm2DJkQXuO7",
+          "name": "NewPage",
+          "type": "managed",
+          "projectId": "iDYYucUMnPTZtZHWq6wa5S",
+          "renderModuleFilePath": "plasmic/dark_saa_s_landing_page/PlasmicNewPage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/landing.tsx"
+          },
+          "cssFilePath": "plasmic/dark_saa_s_landing_page/PlasmicNewPage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/landing"
         }
       ],
       "icons": [
@@ -219,6 +233,41 @@
           "id": "b4UZy3ELoSQe",
           "name": "IconArrowRightsvgIcon",
           "moduleFilePath": "plasmic/dark_saa_s_landing_page/icons/PlasmicIcon__IconArrowRightsvg.tsx"
+        },
+        {
+          "id": "FzR9L3DYjy5h",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/dark_saa_s_landing_page/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "MLAWlhgurTky",
+          "name": "SmallIconIconIcon",
+          "moduleFilePath": "plasmic/dark_saa_s_landing_page/icons/PlasmicIcon__SmallIconIcon.tsx"
+        },
+        {
+          "id": "SCha68IwAUzf",
+          "name": "Frame1321314713Icon",
+          "moduleFilePath": "plasmic/dark_saa_s_landing_page/icons/PlasmicIcon__Frame1321314713.tsx"
+        },
+        {
+          "id": "4Rdd2HDpY-cP",
+          "name": "Frame1321314714Icon",
+          "moduleFilePath": "plasmic/dark_saa_s_landing_page/icons/PlasmicIcon__Frame1321314714.tsx"
+        },
+        {
+          "id": "MW2RR3loffiy",
+          "name": "Frame1321314716Icon",
+          "moduleFilePath": "plasmic/dark_saa_s_landing_page/icons/PlasmicIcon__Frame1321314716.tsx"
+        },
+        {
+          "id": "r4H44p5dV4OR",
+          "name": "Frame1321314715Icon",
+          "moduleFilePath": "plasmic/dark_saa_s_landing_page/icons/PlasmicIcon__Frame1321314715.tsx"
+        },
+        {
+          "id": "ucoyANWg2kwU",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/dark_saa_s_landing_page/icons/PlasmicIcon__Icon2.tsx"
         }
       ],
       "images": [
@@ -406,6 +455,11 @@
           "id": "o4N_yfIjcVhw",
           "name": "galleri2-1.png",
           "filePath": "../public/plasmic/dark_saa_s_landing_page/images/galleri21Png.png"
+        },
+        {
+          "id": "1uAUK0FBMF-3",
+          "name": "Google Icon",
+          "filePath": "../public/plasmic/dark_saa_s_landing_page/images/googleIcon.svg"
         }
       ],
       "indirect": false,
