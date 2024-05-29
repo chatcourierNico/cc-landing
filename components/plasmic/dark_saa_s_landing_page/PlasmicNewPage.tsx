@@ -59,6 +59,8 @@ import {
   useGlobalActions
 } from "@plasmicapp/react-web/lib/host";
 
+import { Embed } from "@plasmicpkgs/plasmic-basic-components";
+
 import "@plasmicapp/react-web/lib/plasmic.css";
 
 import projectcss from "./plasmic.module.css"; // plasmic-import: iDYYucUMnPTZtZHWq6wa5S/projectcss
@@ -206,17 +208,12 @@ export type PlasmicNewPage__OverridesType = {
   textContainer5?: Flex__<"div">;
   cta10?: Flex__<"div">;
   property1ImageBackgroundSignup?: Flex__<"div">;
-  imageLummi5?: Flex__<"div">;
   copyComponent4?: Flex__<"div">;
   headingContainer3?: Flex__<"div">;
   signUpHeading?: Flex__<"div">;
   subheading8?: Flex__<"div">;
-  googleLogin?: Flex__<"div">;
-  img?: Flex__<typeof PlasmicImg__>;
-  continueWithGoogle?: Flex__<"div">;
+  embedHtml?: Flex__<typeof Embed>;
   separator?: Flex__<"div">;
-  line?: Flex__<"div">;
-  line2?: Flex__<"div">;
   form?: Flex__<"div">;
   input?: Flex__<"div">;
   label?: Flex__<"div">;
@@ -1488,12 +1485,6 @@ function PlasmicNewPage__RenderFunc(props: {
                 sty.property1ImageBackgroundSignup
               )}
             >
-              <div
-                data-plasmic-name={"imageLummi5"}
-                data-plasmic-override={overrides.imageLummi5}
-                className={classNames(projectcss.all, sty.imageLummi5)}
-              />
-
               <Stack__
                 as={"div"}
                 data-plasmic-name={"copyComponent4"}
@@ -1531,73 +1522,23 @@ function PlasmicNewPage__RenderFunc(props: {
                     {"Join Now!"}
                   </div>
                 </Stack__>
-                <Stack__
-                  as={"div"}
-                  data-plasmic-name={"googleLogin"}
-                  data-plasmic-override={overrides.googleLogin}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.googleLogin)}
-                >
-                  <PlasmicImg__
-                    data-plasmic-name={"img"}
-                    data-plasmic-override={overrides.img}
-                    alt={""}
-                    className={classNames(sty.img)}
-                    displayHeight={"24px"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"100%"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"24px"}
-                    loading={"lazy"}
-                    src={{
-                      src: "/plasmic/dark_saa_s_landing_page/images/googleIcon.svg",
-                      fullWidth: 24,
-                      fullHeight: 24,
-                      aspectRatio: 1
-                    }}
-                  />
+                <Embed
+                  data-plasmic-name={"embedHtml"}
+                  data-plasmic-override={overrides.embedHtml}
+                  className={classNames("__wab_instance", sty.embedHtml)}
+                  code={
+                    '<div style="width:100%;height:500px;" data-fillout-id="3HkhW5t8quus" data-fillout-embed-type="standard" data-fillout-inherit-parameters data-fillout-dynamic-resize></div><script src="https://server.fillout.com/embed/v1/"></script>'
+                  }
+                />
 
-                  <div
-                    data-plasmic-name={"continueWithGoogle"}
-                    data-plasmic-override={overrides.continueWithGoogle}
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.continueWithGoogle
-                    )}
-                  >
-                    {"Sign in with Google"}
-                  </div>
-                </Stack__>
                 <Stack__
                   as={"div"}
                   data-plasmic-name={"separator"}
                   data-plasmic-override={overrides.separator}
                   hasGap={true}
                   className={classNames(projectcss.all, sty.separator)}
-                >
-                  <div
-                    data-plasmic-name={"line"}
-                    data-plasmic-override={overrides.line}
-                    className={classNames(projectcss.all, sty.line)}
-                  />
+                />
 
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__wayLt
-                    )}
-                  >
-                    {"or"}
-                  </div>
-                  <div
-                    data-plasmic-name={"line2"}
-                    data-plasmic-override={overrides.line2}
-                    className={classNames(projectcss.all, sty.line2)}
-                  />
-                </Stack__>
                 <Stack__
                   as={"div"}
                   data-plasmic-name={"form"}
@@ -2121,17 +2062,12 @@ const PlasmicDescendants = {
     "textContainer5",
     "cta10",
     "property1ImageBackgroundSignup",
-    "imageLummi5",
     "copyComponent4",
     "headingContainer3",
     "signUpHeading",
     "subheading8",
-    "googleLogin",
-    "img",
-    "continueWithGoogle",
+    "embedHtml",
     "separator",
-    "line",
-    "line2",
     "form",
     "input",
     "label",
@@ -2294,17 +2230,12 @@ const PlasmicDescendants = {
     "textContainer5",
     "cta10",
     "property1ImageBackgroundSignup",
-    "imageLummi5",
     "copyComponent4",
     "headingContainer3",
     "signUpHeading",
     "subheading8",
-    "googleLogin",
-    "img",
-    "continueWithGoogle",
+    "embedHtml",
     "separator",
-    "line",
-    "line2",
     "form",
     "input",
     "label",
@@ -2885,17 +2816,12 @@ const PlasmicDescendants = {
   cta10: ["cta10"],
   property1ImageBackgroundSignup: [
     "property1ImageBackgroundSignup",
-    "imageLummi5",
     "copyComponent4",
     "headingContainer3",
     "signUpHeading",
     "subheading8",
-    "googleLogin",
-    "img",
-    "continueWithGoogle",
+    "embedHtml",
     "separator",
-    "line",
-    "line2",
     "form",
     "input",
     "label",
@@ -2907,18 +2833,13 @@ const PlasmicDescendants = {
     "cta11",
     "byContinuingYouAgreeToOurTermsOfServiceAndPrivacyPolicy"
   ],
-  imageLummi5: ["imageLummi5"],
   copyComponent4: [
     "copyComponent4",
     "headingContainer3",
     "signUpHeading",
     "subheading8",
-    "googleLogin",
-    "img",
-    "continueWithGoogle",
+    "embedHtml",
     "separator",
-    "line",
-    "line2",
     "form",
     "input",
     "label",
@@ -2933,12 +2854,8 @@ const PlasmicDescendants = {
   headingContainer3: ["headingContainer3", "signUpHeading", "subheading8"],
   signUpHeading: ["signUpHeading"],
   subheading8: ["subheading8"],
-  googleLogin: ["googleLogin", "img", "continueWithGoogle"],
-  img: ["img"],
-  continueWithGoogle: ["continueWithGoogle"],
-  separator: ["separator", "line", "line2"],
-  line: ["line"],
-  line2: ["line2"],
+  embedHtml: ["embedHtml"],
+  separator: ["separator"],
   form: [
     "form",
     "input",
@@ -3233,17 +3150,12 @@ type NodeDefaultElementType = {
   textContainer5: "div";
   cta10: "div";
   property1ImageBackgroundSignup: "div";
-  imageLummi5: "div";
   copyComponent4: "div";
   headingContainer3: "div";
   signUpHeading: "div";
   subheading8: "div";
-  googleLogin: "div";
-  img: typeof PlasmicImg__;
-  continueWithGoogle: "div";
+  embedHtml: typeof Embed;
   separator: "div";
-  line: "div";
-  line2: "div";
   form: "div";
   input: "div";
   label: "div";
@@ -3480,17 +3392,12 @@ export const PlasmicNewPage = Object.assign(
     property1ImageBackgroundSignup: makeNodeComponent(
       "property1ImageBackgroundSignup"
     ),
-    imageLummi5: makeNodeComponent("imageLummi5"),
     copyComponent4: makeNodeComponent("copyComponent4"),
     headingContainer3: makeNodeComponent("headingContainer3"),
     signUpHeading: makeNodeComponent("signUpHeading"),
     subheading8: makeNodeComponent("subheading8"),
-    googleLogin: makeNodeComponent("googleLogin"),
-    img: makeNodeComponent("img"),
-    continueWithGoogle: makeNodeComponent("continueWithGoogle"),
+    embedHtml: makeNodeComponent("embedHtml"),
     separator: makeNodeComponent("separator"),
-    line: makeNodeComponent("line"),
-    line2: makeNodeComponent("line2"),
     form: makeNodeComponent("form"),
     input: makeNodeComponent("input"),
     label: makeNodeComponent("label"),

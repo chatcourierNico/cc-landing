@@ -2309,14 +2309,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 120px 16px;
-}
-.imageLummi5 {
-  width: 1280px;
-  height: 686px;
-  display: block;
-  position: relative;
-  flex-shrink: 0;
+  padding: 7px 16px 90px;
 }
 .copyComponent4 {
   background: rgba(33, 39, 48, 1);
@@ -2393,57 +2386,11 @@
   align-self: stretch;
   position: relative;
 }
-.googleLogin {
-  background: rgba(56, 61, 69, 1);
-  box-shadow: inset 0px 0px 0px 1px rgba(85, 96, 114, 1);
-  height: auto;
-  display: flex;
-  position: relative;
-  align-self: stretch;
-  flex-direction: row;
-  border-radius: 8px;
-  padding: 16px 8px;
-}
-.googleLogin > :global(.__wab_flex-container) {
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  margin-left: calc(0px - 12px);
-  width: calc(100% + 12px);
-}
-.googleLogin > :global(.__wab_flex-container) > *,
-.googleLogin > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
-.googleLogin > :global(.__wab_flex-container) > picture > img,
-.googleLogin
-  > :global(.__wab_flex-container)
-  > :global(.__wab_slot)
-  > picture
-  > img {
-  margin-left: 12px;
-}
-.img {
-  position: relative;
-  object-fit: cover;
+.embedHtml:global(.__wab_instance) {
   max-width: 100%;
-  width: 24px;
-  height: 24px;
-  display: block !important;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-.img > picture > img {
   object-fit: cover;
-}
-.continueWithGoogle {
-  display: block;
-  font-size: 14px;
-  text-align: center;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  letter-spacing: 0em;
-  line-height: 1.6;
-  color: rgba(237, 237, 237, 1);
   position: relative;
+  width: 1146px;
 }
 .separator {
   height: auto;
@@ -2468,33 +2415,6 @@
   > picture
   > img {
   margin-left: 24px;
-}
-.line {
-  background: rgba(85, 96, 114, 1);
-  height: 1px;
-  display: block;
-  position: relative;
-  flex-grow: 1;
-  overflow: hidden;
-}
-.text__wayLt {
-  display: block;
-  font-size: 12px;
-  text-align: center;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  letter-spacing: 0em;
-  line-height: 1.6;
-  color: rgba(255, 255, 255, 1);
-  position: relative;
-}
-.line2 {
-  background: rgba(85, 96, 114, 1);
-  height: 1px;
-  display: block;
-  position: relative;
-  flex-grow: 1;
-  overflow: hidden;
 }
 .form {
   height: auto;
